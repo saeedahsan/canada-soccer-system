@@ -29,12 +29,12 @@ function Home() {
           <TableRow>
             <CenteredTableCell>Tier</CenteredTableCell>
             <CenteredTableCell>Level</CenteredTableCell>
-            <CenteredTableCell colSpan={8}>League</CenteredTableCell>
+            <CenteredTableCell colSpan={17}>League</CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>Professional (Tier 1)</CenteredTableCell>
             <CenteredTableCell>1</CenteredTableCell>
-            <CenteredTableCell colSpan={8}>
+            <CenteredTableCell colSpan={17}>
               Canadian Premier League
             </CenteredTableCell>
           </TableRow>
@@ -51,6 +51,7 @@ function Home() {
             <CenteredTableCell colSpan={2}>
               League1 Ontario Premier
             </CenteredTableCell>
+            <CenteredTableCell colSpan={9}>Ligue1 Québec</CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>3</CenteredTableCell>
@@ -60,13 +61,15 @@ function Home() {
             <CenteredTableCell colSpan={2}>
               League1 Ontario Championship
             </CenteredTableCell>
+            <CenteredTableCell colSpan={9}>Ligue2 Québec</CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>4</CenteredTableCell>
             <CenteredTableCell colSpan={2}>League2 Ontario</CenteredTableCell>
+            <CenteredTableCell colSpan={9}>Ligue3 Québec</CenteredTableCell>
           </TableRow>
           <TableRow>
-            <CenteredTableCell rowSpan={6}>Amateur</CenteredTableCell>
+            <CenteredTableCell rowSpan={7}>Amateur</CenteredTableCell>
             <CenteredTableCell>5</CenteredTableCell>
             <CenteredTableCell>
               Vancouver Island Soccer League Division 1
@@ -85,6 +88,21 @@ function Home() {
             <CenteredTableCell colSpan={2}>
               Ontario Soccer League Provincial Elite
             </CenteredTableCell>
+            <CenteredTableCell>
+              Lac St-Louis Development League Division 1
+            </CenteredTableCell>
+            <CenteredTableCell colSpan={3}>
+              Ligue Laval-Laurentides-Lanaudière-Mauricie
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de développement Concordia Division 1
+            </CenteredTableCell>
+            <CenteredTableCell colSpan={2}>
+              Ligue interrégioanle Zone 2 Division 1
+            </CenteredTableCell>
+            <CenteredTableCell colSpan={2}>
+              Ligue interrégionale Québec-Est Division 1
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>6</CenteredTableCell>
@@ -94,7 +112,7 @@ function Home() {
             <CenteredTableCell>
               Vancouver Metro Soccer League Division 1
             </CenteredTableCell>
-            <CenteredTableCellItalicized rowSpan={4}>
+            <CenteredTableCellItalicized rowSpan={6}>
               No leagues at this level
             </CenteredTableCellItalicized>
             <CenteredTableCell>
@@ -111,6 +129,25 @@ function Home() {
             </CenteredTableCell>
             <CenteredTableCell>
               Ontario Soccer League Provincial East
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Lac St-Louis Development League Division 2
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de soccer Laurentides Division 1
+            </CenteredTableCell>
+            <CenteredTableCell>Ligue Lanaudière</CenteredTableCell>
+            <CenteredTableCell>
+              Ligue Mauricienne de soccer Division 1
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de développement Concordia Division 2
+            </CenteredTableCell>
+            <CenteredTableCell colSpan={2}>
+              Ligue interrégioanle Zone 2 Division 2
+            </CenteredTableCell>
+            <CenteredTableCell colSpan={2}>
+              Ligue interrégionale Québec-Est Division 2
             </CenteredTableCell>
           </TableRow>
           <TableRow>
@@ -136,6 +173,33 @@ function Home() {
             <CenteredTableCell>
               Ontario Soccer League Regional East
             </CenteredTableCell>
+            <CenteredTableCell>
+              Lac St-Louis Development League Division 3
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de soccer Laurentides Division 2
+            </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={5}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Ligue Mauricienne de soccer Division 2
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de développement Concordia Division 3
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de soccer régionale Rive-Sud Division 1
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de développement de soccer extérieur ARS Estrie Division 1
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de soccer Saguenay Lac Saint-Jean
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de soccer Québec Métro Senior Division 1
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>8</CenteredTableCell>
@@ -159,6 +223,30 @@ function Home() {
               <div>Ontario Soccer League Multijurisdictional Central</div>
               <div>Ontario Soccer League Multijurisdictional East</div>
             </CenteredTableCell>
+            <CenteredTableCell>
+              Lac St-Louis Development League Division 4
+            </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={4}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Ligue Mauricienne de soccer Division 3
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de développement Concordia Division 4
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de soccer régionale Rive-Sud Division 2
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de développement de soccer extérieur ARS Estrie Division 2
+            </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={4}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Ligue de soccer Québec Métro Senior Division 2
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>9</CenteredTableCell>
@@ -177,13 +265,34 @@ function Home() {
             <CenteredTableCell>
               Manitoba Major Soccer League Division 4
             </CenteredTableCell>
-            <CenteredTableCellItalicized colSpan={2} rowSpan={2}>
+            <CenteredTableCellItalicized colSpan={2} rowSpan={3}>
               No leagues at this level
             </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Lac St-Louis Development League Division 5
+            </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={3}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Ligue de développement Concordia Division 5
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de soccer régionale Rive-Sud Division 3
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de développement de soccer extérieur ARS Estrie Division 3
+            </CenteredTableCell>
+            <CenteredTableCell>
+              Ligue de soccer Québec Métro Senior Division 3
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>10</CenteredTableCell>
-            <CenteredTableCellItalicized colSpan={4}>
+            <CenteredTableCellItalicized colSpan={2} rowSpan={2}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCellItalicized rowSpan={2}>
               No leagues at this level
             </CenteredTableCellItalicized>
             <CenteredTableCell>
@@ -192,6 +301,33 @@ function Home() {
             <CenteredTableCell>
               Manitoba Major Soccer League Division 5
             </CenteredTableCell>
+            <CenteredTableCell>
+              Lac St-Louis Development League Division 6
+            </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={2}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Ligue de soccer régionale Rive-Sud Division 4
+            </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={2}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCellItalicized rowSpan={2}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+          </TableRow>
+          <TableRow>
+            <CenteredTableCell>11</CenteredTableCell>
+            <CenteredTableCellItalicized colSpan={2}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Lac St-Louis Development League Division 7
+            </CenteredTableCell>
+            <CenteredTableCellItalicized>
+              No leagues at this level
+            </CenteredTableCellItalicized>
           </TableRow>
         </Table>
       </TableContainer>
