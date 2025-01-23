@@ -29,12 +29,12 @@ function Home() {
           <TableRow>
             <CenteredTableCell>Tier</CenteredTableCell>
             <CenteredTableCell>Level</CenteredTableCell>
-            <CenteredTableCell colSpan={17}>League</CenteredTableCell>
+            <CenteredTableCell colSpan={18}>League</CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>Professional (Tier 1)</CenteredTableCell>
             <CenteredTableCell>1</CenteredTableCell>
-            <CenteredTableCell colSpan={17}>
+            <CenteredTableCell colSpan={18}>
               Canadian Premier League
             </CenteredTableCell>
           </TableRow>
@@ -52,6 +52,9 @@ function Home() {
               League1 Ontario Premier
             </CenteredTableCell>
             <CenteredTableCell colSpan={9}>Ligue1 Québec</CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={3}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
           </TableRow>
           <TableRow>
             <CenteredTableCell>3</CenteredTableCell>
@@ -103,6 +106,9 @@ function Home() {
             <CenteredTableCell colSpan={2}>
               Ligue interrégionale Québec-Est Division 1
             </CenteredTableCell>
+            <CenteredTableCell>
+              New Brunswick Premier Soccer League
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>6</CenteredTableCell>
@@ -149,6 +155,9 @@ function Home() {
             <CenteredTableCell colSpan={2}>
               Ligue interrégionale Québec-Est Division 2
             </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={6}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
           </TableRow>
           <TableRow>
             <CenteredTableCell>7</CenteredTableCell>
