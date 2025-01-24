@@ -29,12 +29,12 @@ function Home() {
           <TableRow>
             <CenteredTableCell>Tier</CenteredTableCell>
             <CenteredTableCell>Level</CenteredTableCell>
-            <CenteredTableCell colSpan={18}>League</CenteredTableCell>
+            <CenteredTableCell colSpan={21}>League</CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>Professional (Tier 1)</CenteredTableCell>
             <CenteredTableCell>1</CenteredTableCell>
-            <CenteredTableCell colSpan={18}>
+            <CenteredTableCell colSpan={21}>
               Canadian Premier League
             </CenteredTableCell>
           </TableRow>
@@ -52,7 +52,7 @@ function Home() {
               League1 Ontario Premier
             </CenteredTableCell>
             <CenteredTableCell colSpan={9}>Ligue1 Québec</CenteredTableCell>
-            <CenteredTableCellItalicized rowSpan={3}>
+            <CenteredTableCellItalicized rowSpan={3} colSpan={4}>
               No leagues at this level
             </CenteredTableCellItalicized>
           </TableRow>
@@ -109,6 +109,9 @@ function Home() {
             <CenteredTableCell>
               New Brunswick Premier Soccer League
             </CenteredTableCell>
+            <CenteredTableCell colSpan={3}>
+              Nova Scotia Soccer League
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>6</CenteredTableCell>
@@ -158,6 +161,11 @@ function Home() {
             <CenteredTableCellItalicized rowSpan={6}>
               No leagues at this level
             </CenteredTableCellItalicized>
+            <CenteredTableCell>Valley District Soccer League</CenteredTableCell>
+            <CenteredTableCell>
+              Metro Senior Men's Soccer League A
+            </CenteredTableCell>
+            <CenteredTableCell>Cape Breton Soccer League</CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>7</CenteredTableCell>
@@ -209,6 +217,15 @@ function Home() {
             <CenteredTableCell>
               Ligue de soccer Québec Métro Senior Division 1
             </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={5}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Metro Senior Men's Soccer League Division 1
+            </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={5}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
           </TableRow>
           <TableRow>
             <CenteredTableCell>8</CenteredTableCell>
@@ -256,6 +273,9 @@ function Home() {
             <CenteredTableCell>
               Ligue de soccer Québec Métro Senior Division 2
             </CenteredTableCell>
+            <CenteredTableCell>
+              Metro Senior Men's Soccer League Division 2
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>9</CenteredTableCell>
@@ -295,6 +315,9 @@ function Home() {
             <CenteredTableCell>
               Ligue de soccer Québec Métro Senior Division 3
             </CenteredTableCell>
+            <CenteredTableCell>
+              Metro Senior Men's Soccer League Division 3
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>10</CenteredTableCell>
@@ -325,6 +348,9 @@ function Home() {
             <CenteredTableCellItalicized rowSpan={2}>
               No leagues at this level
             </CenteredTableCellItalicized>
+            <CenteredTableCell>
+              Metro Senior Men's Soccer League Division 4
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>11</CenteredTableCell>
@@ -334,6 +360,9 @@ function Home() {
             <CenteredTableCell>
               Lac St-Louis Development League Division 7
             </CenteredTableCell>
+            <CenteredTableCellItalicized>
+              No leagues at this level
+            </CenteredTableCellItalicized>
             <CenteredTableCellItalicized>
               No leagues at this level
             </CenteredTableCellItalicized>
