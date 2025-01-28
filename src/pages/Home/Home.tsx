@@ -29,12 +29,12 @@ function Home() {
           <TableRow>
             <CenteredTableCell>Tier</CenteredTableCell>
             <CenteredTableCell>Level</CenteredTableCell>
-            <CenteredTableCell colSpan={22}>League</CenteredTableCell>
+            <CenteredTableCell colSpan={24}>League</CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>Professional (Tier 1)</CenteredTableCell>
             <CenteredTableCell>1</CenteredTableCell>
-            <CenteredTableCell colSpan={22}>
+            <CenteredTableCell colSpan={24}>
               Canadian Premier League
             </CenteredTableCell>
           </TableRow>
@@ -52,7 +52,7 @@ function Home() {
               League1 Ontario Premier
             </CenteredTableCell>
             <CenteredTableCell colSpan={9}>Ligue1 Québec</CenteredTableCell>
-            <CenteredTableCellItalicized rowSpan={3} colSpan={5}>
+            <CenteredTableCellItalicized rowSpan={3} colSpan={7}>
               No leagues at this level
             </CenteredTableCellItalicized>
           </TableRow>
@@ -115,6 +115,9 @@ function Home() {
             <CenteredTableCell>
               Prince Edward Island Senior Men's Soccer League Division 1
             </CenteredTableCell>
+            <CenteredTableCell colSpan={2}>
+              Newfoundland and Labrador Challenge Cup
+            </CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>6</CenteredTableCell>
@@ -172,6 +175,10 @@ function Home() {
             <CenteredTableCell>
               Prince Edward Island Senior Men's Soccer League Division 2
             </CenteredTableCell>
+            <CenteredTableCell>
+              St. John's Intermediate Men Tier 1
+            </CenteredTableCell>
+            <CenteredTableCell>Corner Brook Senior Mens</CenteredTableCell>
           </TableRow>
           <TableRow>
             <CenteredTableCell>7</CenteredTableCell>
@@ -235,6 +242,12 @@ function Home() {
             <CenteredTableCell>
               Prince Edward Island Senior Men's Soccer League Division 3
             </CenteredTableCell>
+            <CenteredTableCell>
+              St. John's Intermediate Men Tier 2
+            </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={5}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
           </TableRow>
           <TableRow>
             <CenteredTableCell>8</CenteredTableCell>
@@ -288,6 +301,9 @@ function Home() {
             <CenteredTableCell>
               Prince Edward Island Senior Men's Soccer League Division 4
             </CenteredTableCell>
+            <CenteredTableCellItalicized rowSpan={4}>
+              No leagues at this level
+            </CenteredTableCellItalicized>
           </TableRow>
           <TableRow>
             <CenteredTableCell>9</CenteredTableCell>
